@@ -22,7 +22,7 @@ except IndexError:
     print("In this list there aren't so many elements")
 
 
-#If I want to create my personal error, I can create the class error and with "raise" I can call it
+#If I want to create my personal error, I can create the class/function error and with "raise" I can call it
 def IfSameType(num, typeValue):
     if isinstance(num, typeValue):
         return f"the variable {num} is {typeValue}"
