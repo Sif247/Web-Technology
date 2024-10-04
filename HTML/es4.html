@@ -1,0 +1,44 @@
+<!--
+
+    Crea un form HTML che richieda all'utente di inserire il proprio nome, 
+    selezionare il corso di laurea (Magistrale o Triennale) 
+    tramite un radio button e scegliere la provincia di residenza da un menu a tendina
+    (opzioni: Modena, Bologna, Reggio Emilia, Parma, Altro).
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Training</title>
+</head>
+<body>
+
+    <form name="university">
+        <h2> Enter your name: </h2>
+        <input type="text">
+
+        <h2>
+            In which degree are you enrolled?
+        </h2>
+        <p>
+            <input type="radio" name = "uni" value="B"> Bachelor </br>
+            <input type="radio" name = "uni" value="M"> Master </br>
+        </p>
+
+        <h2>Select the province of your recidence: </h2>
+        <select name="Residence">
+            <option value="BO" selected = "selected">Bologna</option>
+            <option value="MO" selected = "selected">Modena</option>
+            <option value="PR" selected = "selected">Parma</option>
+            <option value="RE" selected = "selected">Reggio Emilia</option>
+            <option value="AT" selected = "selected">other</option>
+        </select>
+
+    </form>
+
+    
+</body>
+</html>
