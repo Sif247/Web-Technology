@@ -1,0 +1,14 @@
+body{
+    background-color: lightgray;
+}
+
+h1{
+    color: blue;
+}
+
+p{
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
